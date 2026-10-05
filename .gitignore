@@ -1,0 +1,51 @@
+# Local learning history remains on disk, not in the public portfolio.
+AGENTS.md
+AGENT.md
+CLAUDE.md
+codex.md
+LEARNING_GUIDE.md
+learning.md
+docs/superpowers/
+.superpowers/
+.learning_backups/
+.codex/
+.agents/
+
+# Environments, caches, editor state, packaging outputs.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+
+# Data and generated model/customer-level outputs are obtained locally.
+data/raw/
+data/processed/
+runs/
+artifacts/
+models/
+*.joblib
+*.pkl
+*.pickle
+*.csv
+*.parquet
+
+# Credentials should never be published. Still review the staging list.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Preserve the old misspelled empty test scaffold locally.
+tests/confest.py
